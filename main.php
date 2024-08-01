@@ -30,7 +30,7 @@
 
                     $lista = [];
                     echo "<tbody>";
-                    for($i = 1; $i < 1000; $i++) {
+                    for($i = 1; $i <= 1000; $i++) {
                         array_push($lista, $i);
 
                         while($lista[count($lista)-1] != 1) {
